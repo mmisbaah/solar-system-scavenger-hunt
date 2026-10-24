@@ -1,0 +1,9 @@
+{
+  "name": "solar-system-scavenger-hunt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/gametest.mjs && node tests/fit.mjs && node tests/overlap.mjs && node tests/maplbl.mjs"
+  },
+  "devDependencies": { "playwright": "^1.47.0" }
+}
